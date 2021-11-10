@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="middleware-final-lab-backend:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/middleware_final_lab_backend_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="middleware-final-lab-backend/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="middleware-final-lab-backend" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

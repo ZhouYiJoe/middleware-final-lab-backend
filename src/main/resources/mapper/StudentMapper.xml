@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.repository.StudentRepository">
+    <insert id="addStudent" parameterType="Student">
+        insert into tstudentinfo (id, name, sex, major)
+        values (#{id}, #{name}, #{sex}, #{major})
+    </insert>
+
+    <delete id="removeAllStudents">
+        delete from tstudentinfo
+        where true
+    </delete>
+
+    <select id="findAllStudents" resultType="Student">
+        select *
+        from tstudentinfo
+    </select>
+</mapper>
