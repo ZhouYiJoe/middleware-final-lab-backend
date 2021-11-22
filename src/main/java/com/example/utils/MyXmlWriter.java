@@ -9,9 +9,15 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MyXmlWriter {
+    private final XmlFileConfig xmlFileConfig;
+
+    public MyXmlWriter(XmlFileConfig xmlFileConfig) {
+        this.xmlFileConfig = xmlFileConfig;
+    }
+
     public void addStudent(Student student) {
         try {
-            Document xmlDocument = XmlFileConfig.getXmlDocument();
+            Document xmlDocument = xmlFileConfig.getXmlDocument();
             Element xmlRoot = xmlDocument.getRootElement();
 
             Element studentElement = xmlRoot.addElement("student");
@@ -24,7 +30,7 @@ public class MyXmlWriter {
             Element major = studentElement.addElement("major");
             major.setText(student.getMajor());
 
-            XMLWriter xmlWriter = XmlFileConfig.getXmlWriter();
+            XMLWriter xmlWriter = xmlFileConfig.getXmlWriter();
             xmlWriter.write(xmlDocument);
             xmlWriter.close();
         } catch (Exception e) {

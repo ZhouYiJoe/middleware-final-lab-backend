@@ -31,7 +31,7 @@
 </form>
 
 <form action="/students/xml-to-db" method="get">
-    <br><input type="submit" value="读取XML">
+    <br><input type="submit" value="读取XML内容到数据库中">
 </form>
 
 <br><a href="/students">查看所有学生</a>

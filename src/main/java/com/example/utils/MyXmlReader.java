@@ -12,9 +12,15 @@ import java.util.List;
 
 @Component
 public class MyXmlReader {
+    private final XmlFileConfig xmlFileConfig;
+
+    public MyXmlReader(XmlFileConfig xmlFileConfig) {
+        this.xmlFileConfig = xmlFileConfig;
+    }
+
     public List<Student> getAllStudents() {
         List<Student> students = new ArrayList<>();
-        Document xmlDocument = XmlFileConfig.getXmlDocument();
+        Document xmlDocument = xmlFileConfig.getXmlDocument();
         Element xmlRoot = xmlDocument.getRootElement();
 
         Iterator<Element> studentsIterator = xmlRoot.elementIterator();
