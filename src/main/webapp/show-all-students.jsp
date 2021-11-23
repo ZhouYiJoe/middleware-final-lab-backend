@@ -4,7 +4,7 @@
     <title>显示所有学生</title>
 </head>
 <body>
-${jsonString}<br>
+<%out.print(request.getAttribute("jsonString"));%><br>
 <a href="/">返回</a>
 </body>
 </html>
