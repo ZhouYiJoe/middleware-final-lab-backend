@@ -28,8 +28,8 @@ CREATE TABLE `tstudentinfo` (
 
 
 
-在jsp代码里，可以通过"${变量名}"的方式从后端获取数据，这里的变量名是由后端决定的。
+在jsp代码里，可以通过request.getAttribute("变量名")的方式从后端获取数据，这里的变量名是由后端决定的。
 
 
 
-![image-20211123195313461](md_img/image-20211123195313461.png)
+![image-20211123201925512](md_img/image-20211123201925512.png)
