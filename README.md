@@ -24,7 +24,7 @@ CREATE TABLE `tstudentinfo` (
 
 
 
-![image-20211123194745221](E:\Documents\code\middleware-final-lab-backend\md_img\image-20211123194745221.png)
+![](md_img\image-20211123194745221.png)
 
 
 
@@ -32,4 +32,4 @@ CREATE TABLE `tstudentinfo` (
 
 
 
-![image-20211123195313461](E:\Documents\code\middleware-final-lab-backend\md_img\image-20211123195313461.png)
+![image-20211123195313461](md_img\image-20211123195313461.png)
