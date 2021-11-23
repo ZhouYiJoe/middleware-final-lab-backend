@@ -18,7 +18,7 @@ CREATE TABLE `tstudentinfo` (
 
 另外还需要安装Maven，Maven的安装方法请查百度。
 
-建议使用IntelliJ IDEA打开本项目，可以在官网https://www.jetbrains.com/shop/eform/students用学校的学生邮箱申请免费使用IDEA。建议自学一下IDEA的使用方法。
+建议使用IntelliJ IDEA打开本项目，可以在官网 https://www.jetbrains.com/shop/eform/students 用学校的学生邮箱申请免费使用IDEA。建议自学一下IDEA的使用方法。
 
 用IDEA打开本项目后，如下图所示，可以看到在webapp目录下有很多jsp文件，这就是本项目的前端部分。
 
