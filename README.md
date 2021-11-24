@@ -33,3 +33,27 @@ CREATE TABLE `tstudentinfo` (
 
 
 ![image-20211123201925512](md_img/image-20211123201925512.png)
+
+
+
+项目的启动方法：打开MiddlewareFinalLabBackendApplication文件，点击“public class MiddlewareFinalLabBackendApplication"旁边的小绿色箭头，选择Run 'MiddlewareFinalLabBackendApplication'即可启动项目。
+
+
+
+![image-20211124085238902](md_img/image-20211124085238902.png)
+
+
+
+![image-20211124085335652](md_img/image-20211124085335652.png)
+
+
+
+![image-20211124085413273](md_img/image-20211124085413273.png)
+
+
+
+项目启动后，在浏览器地址栏中输入localhost:8080即可访问该项目的主页。
+
+
+
+![image-20211124085617988](md_img/image-20211124085617988.png)
