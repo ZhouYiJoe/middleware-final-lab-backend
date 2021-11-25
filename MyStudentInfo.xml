@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students> 
+  <student> 
+    <id>2015150039</id>  
+    <name>祖力甫哈·努尔买买提</name>  
+    <sex>男</sex>  
+    <major>软件工程</major> 
+  </student>  
+  <student> 
+    <id>2016154083</id>  
+    <name>祁非凡</name>  
+    <sex>男</sex>  
+    <major>物联网工程</major> 
+  </student>  
+  <student> 
+    <id>2018151028</id>  
+    <name>吴东蔚</name>  
+    <sex>男</sex>  
+    <major>软件工程</major> 
+  </student>
+</students>

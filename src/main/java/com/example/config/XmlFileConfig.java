@@ -11,7 +11,7 @@ import java.io.FileWriter;
 
 @SpringBootConfiguration
 public class XmlFileConfig {
-    private String xmlFilePath = "E:\\middleware-final-lab-files\\MyStudentInfo.xml";
+    private final String xmlFilePath = "MyStudentInfo.xml";
 
     public Document getXmlDocument() {
         try {
