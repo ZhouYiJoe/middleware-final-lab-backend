@@ -23,6 +23,7 @@ public class XmlToDb {
         List<Student> students = myXmlReader.getAllStudents();
         studentRepository.removeAllStudents();
         for (Student student : students) {
+
             studentRepository.addStudent(student);
         }
     }

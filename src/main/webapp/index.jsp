@@ -2,39 +2,65 @@
 <html lang="zh">
 <head>
     <title>主页</title>
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
 </head>
 <body>
+<div class="col-lg-5 row">
+    <form class="form-horizontal"  action="/students" method="post">
+        <div class="form-group">
+            <label for="inputEmail3" class="col-lg-2 control-label" >学号</label>
+            <div class="col-lg-5">
+                <input type="text" name="id" class="form-control " id="inputEmail3" placeholder="学号">
+            </div>
 
-<form action="/students" method="post">
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="control-label col-lg-2" >姓名</label>
+            <div class="col-lg-5">
+                <input type="text" name="name" class="form-control" id="inputPassword3" placeholder="姓名">
 
-    <table>
-        <tr>
-            <td><label for="id">学号</label></td>
-            <td><input name="id" id="id" type="text"></td>
-        </tr>
-        <tr>
-            <td><label for="name">姓名</label></td>
-            <td><input name="name" id="name" type="text"></td>
-        </tr>
-        <tr>
-            <td><label for="sex">性别</label></td>
-            <td><input name="sex" id="sex" type="text"></td>
-        </tr>
-        <tr>
-            <td><label for="major">主修专业</label></td>
-            <td><input name="major" id="major" type="text"></td>
-        </tr>
-    </table>
+            </div>
 
-    <input type="submit" value="提交">
+        </div>
+        <div class="form-group">
+            <label for="inputPassword5" class="control-label col-lg-2">性别</label>
+            <div class="col-lg-5">
+                <select name="sex" class="form-control " id="inputPassword5" >
+                    <option value="男">男</option>
+                    <option value="女">女</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword4" class="control-label col-lg-2">主修专业</label>
+            <div class="col-lg-5 ">
+                <input type="text" name="major" class="form-control " id="inputPassword4" placeholder="专业">
 
-</form>
+            </div>
 
-<form action="/students/xml-to-db" method="get">
-    <br><input type="submit" value="读取XML内容到数据库中">
-</form>
+        </div>
+        <div class="col-lg-5 col-lg-offset-2">
+            <button type="submit" class="btn btn-default btn-warning">提交</button>
 
-<br><a href="/students">查看所有学生</a>
+        </div>
 
+    </form>
+</div>
+
+<div class="row col-lg-10" style="margin: 5px">
+    <a class="btn btn-default btn-primary" href="/students/xml-to-db" role="button">读取XML内容到数据库中</a>
+</div>
+<div class="row col-lg-10 " style="margin: 5px">
+    <a class="btn btn-default btn-success" href="/students" role="button">查看所有学生</a>
+
+</div>
+
+
+
+
+
+<script src="./static/js/jquery-1.10.2.min.js"></script>
+
+<script src="./static/js/bootstrap.min.js" ></script>
 </body>
 </html>

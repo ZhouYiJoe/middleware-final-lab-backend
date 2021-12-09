@@ -18,5 +18,23 @@
     <name>吴东蔚</name>  
     <sex>男</sex>  
     <major>软件工程</major> 
+  </student>  
+  <student> 
+    <id>13</id>  
+    <name>汤姆</name>  
+    <sex>男</sex>  
+    <major>软件工程</major> 
+  </student>  
+  <student> 
+    <id/>  
+    <name/>  
+    <sex>男</sex>  
+    <major/> 
+  </student>  
+  <student>
+    <id>234234</id>
+    <name>汤姆</name>
+    <sex>男</sex>
+    <major>软件工程</major>
   </student>
 </students>

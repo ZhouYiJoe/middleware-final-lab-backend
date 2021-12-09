@@ -52,7 +52,7 @@ public class StudentController {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        model.addAttribute("jsonString", jsonString);
+        model.addAttribute("jsonString", students);
         return "show-all-students";
     }
 }
