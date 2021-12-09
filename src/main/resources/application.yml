@@ -1,7 +1,7 @@
 spring:
   datasource:
     username: root
-    password:
+    password:12345
     url: jdbc:mysql:///middleware_final_lab
     driver-class-name: com.mysql.cj.jdbc.Driver
   mvc:

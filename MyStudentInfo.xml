@@ -20,21 +20,10 @@
     <major>软件工程</major> 
   </student>  
   <student> 
-    <id>13</id>  
-    <name>汤姆</name>  
-    <sex>男</sex>  
+    <id>2019092147</id>
+    <name>陈亚军</name>
+    <sex>男</sex>
     <major>软件工程</major> 
   </student>  
-  <student> 
-    <id/>  
-    <name/>  
-    <sex>男</sex>  
-    <major/> 
-  </student>  
-  <student>
-    <id>234234</id>
-    <name>汤姆</name>
-    <sex>男</sex>
-    <major>软件工程</major>
-  </student>
+
 </students>
