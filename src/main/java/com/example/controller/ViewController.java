@@ -9,9 +9,4 @@ public class ViewController {
     public String index() {
         return "index";
     }
-
-    @RequestMapping("/show-all-students")
-    public String showAllStudents() {
-        return "show-all-students";
-    }
 }
