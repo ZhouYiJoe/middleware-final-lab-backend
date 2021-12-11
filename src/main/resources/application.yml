@@ -1,13 +1,16 @@
 spring:
+  #数据库连接配置
   datasource:
     username: root
     password: 12345
     url: jdbc:mysql:///middleware_final_lab
     driver-class-name: com.mysql.cj.jdbc.Driver
+  #与JSP文件解析相关的配置
   mvc:
     view:
       prefix: /
       suffix: .jsp
+#MyBatis的配置
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.example.entity
