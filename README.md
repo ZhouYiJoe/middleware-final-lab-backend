@@ -26,7 +26,7 @@ CREATE TABLE `tstudentinfo` (
 
 # 启动项目的方法
 
-进入源代码文件夹下的middleware-final-lab-backend目录下，输入如下指令。
+进入middleware-final-lab-backend目录下，输入如下指令。
 
 ~~~shell
 mvn spring-boot:run
